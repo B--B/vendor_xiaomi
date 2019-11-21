@@ -6,13 +6,13 @@
 -->
 
 <!--
-  ~ Copyright (c) 2017, 2019, The Linux Foundation. All rights reserved.
+  ~ Copyright (c) 2017, The Linux Foundation. All rights reserved.
 
   ~ Not a Contribution.
 -->
 
 <!--
-  ~ Copyright (C) 2016-2019 The Android Open Source Project
+  ~ Copyright (C) 2016 The Android Open Source Project
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -80,7 +80,7 @@ It allows additional grants on top of privapp-permissions-platform.xml
     </privapp-permissions>
 
     <privapp-permissions package="org.codeaurora.qti.nrNetworkSettingApp">
-        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
     </privapp-permissions>
 
 </permissions>
