@@ -18,7 +18,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/msm8996-common
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/msm8996-common/proprietary/bin/move_time_data.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/move_time_data.sh \
     vendor/xiaomi/msm8996-common/proprietary/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM)/bin/wfdservice \
     vendor/xiaomi/msm8996-common/proprietary/etc/cne/Nexus/ATT/ATT_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/ATT/ATT_profiles.xml \
     vendor/xiaomi/msm8996-common/proprietary/etc/cne/Nexus/ROW/ROW_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/ROW/ROW_profiles.xml \
