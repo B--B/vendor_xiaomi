@@ -609,7 +609,6 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     QtiTelephonyService \
     WfdService \
-    com.qualcomm.location \
     CneApp \
     IWlanService \
     TimeService \
