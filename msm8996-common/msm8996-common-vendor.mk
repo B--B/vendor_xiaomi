@@ -7,30 +7,18 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_10_0.fw \
-    vendor/xiaomi/msm8996-common/proprietary/etc/permissions/com.qti.location.sdk.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qti.location.sdk.xml \
-    vendor/xiaomi/msm8996-common/proprietary/etc/permissions/com.qualcomm.location.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qualcomm.location.xml \
-    vendor/xiaomi/msm8996-common/proprietary/etc/permissions/izat.xt.srv.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/izat.xt.srv.xml \
-    vendor/xiaomi/msm8996-common/proprietary/etc/permissions/privapp-permissions-com.qualcomm.location.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.qualcomm.location.xml \
     vendor/xiaomi/msm8996-common/proprietary/lib/extractors/libmmparserextractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib/extractors/libmmparserextractor.so \
     vendor/xiaomi/msm8996-common/proprietary/lib/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libFileMux.so \
     vendor/xiaomi/msm8996-common/proprietary/lib/libOmxMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libOmxMux.so \
     vendor/xiaomi/msm8996-common/proprietary/lib/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmosal.so \
     vendor/xiaomi/msm8996-common/proprietary/lib/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmparser_lite.so \
-    vendor/xiaomi/msm8996-common/proprietary/lib64/liblocationservice_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/liblocationservice_jni.so \
     vendor/xiaomi/msm8996-common/proprietary/lib64/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmosal.so \
-    vendor/xiaomi/msm8996-common/proprietary/lib64/libxt_native.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libxt_native.so \
     vendor/xiaomi/msm8996-common/proprietary/product/etc/permissions/privapp-permissions-google-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-google-hotword.xml \
     vendor/xiaomi/msm8996-common/proprietary/product/etc/permissions/telephony_product_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/telephony_product_privapp-permissions-qti.xml \
     vendor/xiaomi/msm8996-common/proprietary/product/etc/sysconfig/hotword-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/hotword-hiddenapi-package-whitelist.xml \
     vendor/xiaomi/msm8996-common/proprietary/product/lib64/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/com.qualcomm.qti.ant@1.0.so \
     vendor/xiaomi/msm8996-common/proprietary/product/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptXHD_encoder.so \
     vendor/xiaomi/msm8996-common/proprietary/product/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptX_encoder.so \
-    vendor/xiaomi/msm8996-common/proprietary/product/lib64/vendor.qti.gnss@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.gnss@1.0.so \
-    vendor/xiaomi/msm8996-common/proprietary/product/lib64/vendor.qti.gnss@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.gnss@1.1.so \
-    vendor/xiaomi/msm8996-common/proprietary/product/lib64/vendor.qti.gnss@1.2.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.gnss@1.2.so \
-    vendor/xiaomi/msm8996-common/proprietary/product/lib64/vendor.qti.gnss@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.gnss@2.0.so \
-    vendor/xiaomi/msm8996-common/proprietary/product/lib64/vendor.qti.gnss@2.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.gnss@2.1.so \
-    vendor/xiaomi/msm8996-common/proprietary/product/lib64/vendor.qti.gnss@3.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.gnss@3.0.so \
     vendor/xiaomi/msm8996-common/proprietary/system/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
     vendor/xiaomi/msm8996-common/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/xiaomi/msm8996-common/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
@@ -40,6 +28,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/system_ext/etc/permissions/com.qti.dpmframework.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qti.dpmframework.xml \
     vendor/xiaomi/msm8996-common/proprietary/system_ext/etc/permissions/dpmapi.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/dpmapi.xml \
     vendor/xiaomi/msm8996-common/proprietary/system_ext/etc/permissions/embms.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/embms.xml \
+    vendor/xiaomi/msm8996-common/proprietary/system_ext/etc/permissions/izat.xt.srv.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/izat.xt.srv.xml \
     vendor/xiaomi/msm8996-common/proprietary/system_ext/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qcrilhook.xml \
     vendor/xiaomi/msm8996-common/proprietary/system_ext/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_libpermissions.xml \
     vendor/xiaomi/msm8996-common/proprietary/system_ext/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_permissions.xml \
@@ -69,6 +58,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/system_ext/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsmedia_jni.so \
     vendor/xiaomi/msm8996-common/proprietary/system_ext/lib64/libmwqemiptablemgr.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmwqemiptablemgr.so \
     vendor/xiaomi/msm8996-common/proprietary/system_ext/lib64/vendor.qti.diaghal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.diaghal@1.0.so \
+    vendor/xiaomi/msm8996-common/proprietary/system_ext/lib64/vendor.qti.gnss@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.gnss@1.0.so \
+    vendor/xiaomi/msm8996-common/proprietary/system_ext/lib64/vendor.qti.gnss@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.gnss@1.1.so \
+    vendor/xiaomi/msm8996-common/proprietary/system_ext/lib64/vendor.qti.gnss@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.gnss@1.2.so \
+    vendor/xiaomi/msm8996-common/proprietary/system_ext/lib64/vendor.qti.gnss@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.gnss@2.0.so \
+    vendor/xiaomi/msm8996-common/proprietary/system_ext/lib64/vendor.qti.gnss@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.gnss@2.1.so \
+    vendor/xiaomi/msm8996-common/proprietary/system_ext/lib64/vendor.qti.gnss@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.gnss@3.0.so \
+    vendor/xiaomi/msm8996-common/proprietary/system_ext/lib64/vendor.qti.gnss@4.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.gnss@4.0.so \
     vendor/xiaomi/msm8996-common/proprietary/system_ext/lib64/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.imsrtpservice@3.0.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
     vendor/xiaomi/msm8996-common/proprietary/vendor/bin/adpl:$(TARGET_COPY_OUT_VENDOR)/bin/adpl \
@@ -109,7 +105,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
     vendor/xiaomi/msm8996-common/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
     vendor/xiaomi/msm8996-common/proprietary/vendor/bin/xtra-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/xtra-daemon \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/bin/xtwifi-client:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-client \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/bin/xtwifi-inet-agent:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-inet-agent \
     vendor/xiaomi/msm8996-common/proprietary/vendor/etc/cne/mwqem.conf:$(TARGET_COPY_OUT_VENDOR)/etc/cne/mwqem.conf \
     vendor/xiaomi/msm8996-common/proprietary/vendor/etc/cne/profileMwqem.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/profileMwqem.xml \
     vendor/xiaomi/msm8996-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
@@ -408,7 +405,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/hw/gatekeeper.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.msm8996.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/hw/sound_trigger.primary.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.msm8996.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/hw/vendor.qti.gnss@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.gnss@3.0-impl.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/hw/vendor.qti.gnss@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.gnss@4.0-impl.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/hw/vulkan.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.msm8996.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/lib-dplmedia.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-dplmedia.so \
@@ -443,6 +440,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbtnv.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30_bltlib.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libcacertclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcacertclient.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libcdfw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdfw.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libcdfw_remote_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdfw_remote_api.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libcne.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcne.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libcneapiclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcneapiclient.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libcneoplookup.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcneoplookup.so \
@@ -469,6 +468,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-glnext.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-qcom.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libloc_api_v02.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_api_v02.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libloc_socket.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_socket.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/liblocationservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblocationservice.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/liblocationservice_glue.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblocationservice_glue.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/liblowi_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblowi_client.so \
@@ -482,12 +482,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/liboemaids_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboemaids_vendor.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libpdmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdmapper.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperipheral_client.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libqcc_file_agent.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcc_file_agent.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcci_legacy.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libqcmaputils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcmaputils.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libqcrilFramework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcrilFramework.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libqcrildatactl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcrildatactl.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libqdi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdi.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libqdma_file_agent.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdma_file_agent.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libqdp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdp.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libqisl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqisl.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libqmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi.so \
@@ -553,8 +553,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/vendor.qti.gnss@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@1.2.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/vendor.qti.gnss@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@2.0.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/vendor.qti.gnss@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@2.1.so \
-    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/vendor.qti.gnss@3.0-service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@3.0-service.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/vendor.qti.gnss@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@3.0.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/vendor.qti.gnss@4.0-service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@4.0-service.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/vendor.qti.gnss@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@4.0.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/vendor.qti.hardware.alarm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.alarm@1.0.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/vendor.qti.hardware.cacert@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.cacert@1.0.so \
@@ -570,6 +571,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.qmi@1.0.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fm@1.0.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/vendor.qti.hardware.mwqemadapter@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.mwqemadapter@1.0.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qccsyshal@1.0.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/vendor.qti.hardware.radio.am@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.am@1.0.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.ims@1.0.so \
@@ -641,12 +643,11 @@ PRODUCT_PACKAGES += \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
-    com.qti.location.sdk \
-    izat.xt.srv \
     com.android.hotwordenrollment.common.util \
     com.qti.dpmframework \
     dpmapi \
     embmslibrary \
+    izat.xt.srv \
     qcrilhook \
-    vendor.qti.gnss@3.0-service \
+    vendor.qti.gnss@4.0-service \
     chargeonlymode

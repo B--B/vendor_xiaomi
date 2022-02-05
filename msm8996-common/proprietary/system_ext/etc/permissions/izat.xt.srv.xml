@@ -6,5 +6,6 @@
 -->
 
 <permissions>
-  <library name="izat.xt.srv" file="/system/framework/izat.xt.srv.jar"/>
+  <library name="izat.xt.srv" file="/system_ext/framework/izat.xt.srv.jar"/>
+  <library name="izat.xt.srv" file="/system/system_ext/framework/izat.xt.srv.jar"/>
 </permissions>

@@ -213,18 +213,6 @@ android_app_import {
 }
 
 dex_import {
-	name: "com.qti.location.sdk",
-	owner: "xiaomi",
-	jars: ["proprietary/framework/com.qti.location.sdk.jar"],
-}
-
-dex_import {
-	name: "izat.xt.srv",
-	owner: "xiaomi",
-	jars: ["proprietary/framework/izat.xt.srv.jar"],
-}
-
-dex_import {
 	name: "com.android.hotwordenrollment.common.util",
 	owner: "xiaomi",
 	jars: ["proprietary/system_ext/framework/com.android.hotwordenrollment.common.util.jar"],
@@ -253,6 +241,13 @@ dex_import {
 }
 
 dex_import {
+	name: "izat.xt.srv",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/izat.xt.srv.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
 	name: "qcrilhook",
 	owner: "xiaomi",
 	jars: ["proprietary/system_ext/framework/qcrilhook.jar"],
@@ -260,9 +255,9 @@ dex_import {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.qti.gnss@3.0-service",
+	name: "vendor.qti.gnss@4.0-service",
 	owner: "xiaomi",
-	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml",
+	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
