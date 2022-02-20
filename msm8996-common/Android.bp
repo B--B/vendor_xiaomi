@@ -320,6 +320,9 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/chargeonlymode"],
 	check_elf_files: false,
+	strip: {
+		none: true,
+	},
 	prefer: true,
 	soc_specific: true,
 }
