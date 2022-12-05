@@ -323,6 +323,46 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "libdapparamstorage",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libdapparamstorage.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libdapparamstorage.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libdeccfg",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libdeccfg.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libdeccfg.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libdiag",
 	owner: "xiaomi",
 	strip: {
@@ -884,6 +924,66 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "libstagefright_soft_ac4dec",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libstagefright_soft_ac4dec.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libstagefright_soft_ac4dec.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libstagefright_soft_ddpdec",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libstagefright_soft_ddpdec.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libstagefright_soft_ddpdec.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libstagefrightdolby",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libstagefrightdolby.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libstagefrightdolby.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libthermalclient",
 	owner: "xiaomi",
 	strip: {
@@ -935,6 +1035,89 @@ cc_prebuilt_library_shared {
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/sensors.ssc.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libswdap",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/soundfx/libswdap.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/soundfx/libswdap.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	relative_install_path: "soundfx",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libswgamedap",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/soundfx/libswgamedap.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/soundfx/libswgamedap.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	relative_install_path: "soundfx",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libswvqe",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/soundfx/libswvqe.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/soundfx/libswvqe.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	relative_install_path: "soundfx",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "vendor.dolby.hardware.dms@2.0",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/vendor.dolby.hardware.dms@2.0.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/vendor.dolby.hardware.dms@2.0.so"],
 		},
 	},
 	compile_multilib: "both",
@@ -4617,6 +4800,23 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "libdlbdsservice",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libdlbdsservice.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libdpmqmihal",
 	owner: "xiaomi",
 	strip: {
@@ -5696,6 +5896,23 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.display.postproc@1.0.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "vendor.dolby.hardware.dms@2.0-impl",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so"],
 		},
 	},
 	compile_multilib: "64",
@@ -7400,6 +7617,17 @@ android_app_import {
 }
 
 android_app_import {
+	name: "MotoSignatureApp",
+	owner: "xiaomi",
+	apk: "proprietary/system_ext/app/MotoSignatureApp/MotoSignatureApp.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+android_app_import {
 	name: "PowerOffAlarm",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/app/PowerOffAlarm/PowerOffAlarm.apk",
@@ -7418,6 +7646,43 @@ android_app_import {
 	dex_preopt: {
 		enabled: false,
 	},
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "MotoDolbyDax3",
+	owner: "xiaomi",
+	apk: "proprietary/system_ext/priv-app/MotoDolbyDax3/MotoDolbyDax3.apk",
+	overrides: ["MusicFX"],
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "MotorolaSettingsProvider",
+	owner: "xiaomi",
+	apk: "proprietary/system_ext/priv-app/MotorolaSettingsProvider/MotorolaSettingsProvider.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "daxService",
+	owner: "xiaomi",
+	apk: "proprietary/system_ext/priv-app/daxService/daxService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
 	system_ext_specific: true,
 }
 
@@ -7458,6 +7723,20 @@ android_app_import {
 }
 
 dex_import {
+	name: "com.motorola.frameworks.core.addon",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/com.motorola.frameworks.core.addon.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.motorola.motosignature",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/com.motorola.motosignature.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
 	name: "com.qti.dpmframework",
 	owner: "xiaomi",
 	jars: ["proprietary/system_ext/framework/com.qti.dpmframework.jar"],
@@ -7468,6 +7747,27 @@ dex_import {
 	name: "dpmapi",
 	owner: "xiaomi",
 	jars: ["proprietary/system_ext/framework/dpmapi.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "moto-checkin",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/moto-checkin.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "moto-settings",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/moto-settings.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "moto",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/moto.jar"],
 	system_ext_specific: true,
 }
 
@@ -7632,6 +7932,19 @@ cc_prebuilt_binary {
 	name: "vendor.display.color@1.0-service",
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/hw/vendor.display.color@1.0-service"],
+	check_elf_files: false,
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "vendor.dolby.hardware.dms@2.0-service",
+	owner: "xiaomi",
+	srcs: ["proprietary/vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service"],
 	check_elf_files: false,
 	strip: {
 		none: true,
@@ -8001,5 +8314,18 @@ cc_prebuilt_binary {
 	},
 	prefer: true,
 	system_ext_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "vendor.dolby_v3_6.hardware.dms360@2.0-service",
+	owner: "xiaomi",
+	srcs: ["proprietary/odm/bin/hw/vendor.dolby_v3_6.hardware.dms360@2.0-service"],
+	check_elf_files: false,
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	device_specific: true,
 }
 
