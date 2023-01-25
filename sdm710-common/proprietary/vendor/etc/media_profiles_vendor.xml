@@ -93,7 +93,7 @@
 <MediaSettings>
     <!-- Each camcorder profile defines a set of predefined configuration parameters -->
     <!-- Back Camera -->
-    <CamcorderProfiles cameraId="0" startOffsetMs="300">
+    <CamcorderProfiles cameraId="0">
 
     <EncoderProfile quality="low" fileFormat="3gp" duration="30">
       <Video codec="h264"
@@ -391,7 +391,6 @@
             channels="2" />
     </EncoderProfile>
 
-<!--
     <EncoderProfile quality="highspeed1080p" fileFormat="mp4" duration="30">
       <Video codec="h264"
              bitRate="42000000"
@@ -399,6 +398,7 @@
              height="1080"
              frameRate="120" />
 
+      <!-- audio setting is ignored -->
       <Audio codec="aac"
              bitRate="96000"
              sampleRate="48000"
@@ -411,6 +411,7 @@
                width="720"
                height="480"
                frameRate="240" />
+        <!-- audio setting is ignored -->
         <Audio codec="aac"
                bitRate="192000"
                sampleRate="48000"
@@ -424,6 +425,7 @@
              height="1080"
              frameRate="120" />
 
+      <!-- audio setting is ignored -->
       <Audio codec="aac"
              bitRate="96000"
              sampleRate="48000"
@@ -437,6 +439,7 @@
              height="720"
              frameRate="240" />
 
+      <!-- audio setting is ignored -->
       <Audio codec="aac"
              bitRate="96000"
              sampleRate="48000"
@@ -455,7 +458,6 @@
              sampleRate="48000"
              channels="2" />
     </EncoderProfile>
--->
 
         <ImageEncoding quality="95" />
         <ImageEncoding quality="80" />
@@ -464,7 +466,7 @@
 
     </CamcorderProfiles>
     <!-- Front Camera -->
-    <CamcorderProfiles cameraId="1" startOffsetMs="300">
+    <CamcorderProfiles cameraId="1">
 
     <EncoderProfile quality="low" fileFormat="3gp" duration="30">
       <Video codec="h264"
