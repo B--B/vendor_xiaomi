@@ -202,12 +202,6 @@ android_app_import {
 }
 
 dex_import {
-	name: "audiosphere",
-	owner: "xiaomi",
-	jars: ["proprietary/system/framework/audiosphere.jar"],
-}
-
-dex_import {
 	name: "com.qti.snapdragon.sdk.display",
 	owner: "xiaomi",
 	jars: ["proprietary/system/framework/com.qti.snapdragon.sdk.display.jar"],
