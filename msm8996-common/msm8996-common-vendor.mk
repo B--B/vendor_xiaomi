@@ -651,6 +651,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libthermalclient \
+    libts_detected_face_hal \
+    libts_face_beautify_hal \
     libsdm-disp-vndapis \
     CneApp \
     IWlanService \
