@@ -9,3 +9,4 @@ service vendor.rmt_storage /vendor/bin/rmt_storage
     user root
     shutdown critical
     ioprio rt 0
+    task_profiles ServiceCapacityLow

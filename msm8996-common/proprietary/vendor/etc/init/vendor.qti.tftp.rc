@@ -6,8 +6,9 @@
 
 # Create pddump directory
 on post-fs-data
-	mkdir /data/vendor/pddump 0770 oem_2903 oem_2903
+   mkdir /data/vendor/pddump 0770 oem_2903 oem_2903
 
 service vendor.tftp_server /vendor/bin/tftp_server
    class core
    user root
+   task_profiles ServiceCapacityLow

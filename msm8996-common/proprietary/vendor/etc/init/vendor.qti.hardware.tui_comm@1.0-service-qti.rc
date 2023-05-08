@@ -1,4 +1,5 @@
 service tui_comm-1-0 /vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti
     class hal
     user system
-    group system drmrpc 
+    group system drmrpc
+    task_profiles ServiceCapacityLow
