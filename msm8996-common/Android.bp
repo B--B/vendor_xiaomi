@@ -6,25 +6,6 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
-	name: "libantradio",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/system/lib/libantradio.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/system/lib64/libantradio.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libthermalclient",
 	owner: "xiaomi",
 	strip: {
@@ -62,17 +43,6 @@ cc_prebuilt_library_shared {
 }
 
 android_app_import {
-	name: "SmartcardService",
-	owner: "xiaomi",
-	apk: "proprietary/system/priv-app/SmartcardService/SmartcardService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
 	name: "CneApp",
 	owner: "xiaomi",
 	apk: "proprietary/vendor/app/CneApp/CneApp.apk",
@@ -106,30 +76,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "HotwordEnrollmentOKGoogleHEXAGON",
-	owner: "xiaomi",
-	apk: "proprietary/product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
-	name: "HotwordEnrollmentXGoogleHEXAGON",
-	owner: "xiaomi",
-	apk: "proprietary/product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
 	name: "PowerOffAlarm",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/app/PowerOffAlarm/PowerOffAlarm.apk",
@@ -152,9 +98,20 @@ android_app_import {
 }
 
 android_app_import {
-	name: "uceShimService",
+	name: "embms",
 	owner: "xiaomi",
-	apk: "proprietary/system_ext/app/uceShimService/uceShimService.apk",
+	apk: "proprietary/system_ext/app/embms/embms.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "imssettings",
+	owner: "xiaomi",
+	apk: "proprietary/system_ext/app/imssettings/imssettings.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -199,12 +156,6 @@ android_app_import {
 }
 
 dex_import {
-	name: "org.simalliance.openmobileapi",
-	owner: "xiaomi",
-	jars: ["proprietary/system/framework/org.simalliance.openmobileapi.jar"],
-}
-
-dex_import {
 	name: "com.qti.dpmframework",
 	owner: "xiaomi",
 	jars: ["proprietary/system_ext/framework/com.qti.dpmframework.jar"],
@@ -219,9 +170,9 @@ dex_import {
 }
 
 dex_import {
-	name: "QtiTelephonyServicelibrary",
+	name: "embmslibrary",
 	owner: "xiaomi",
-	jars: ["proprietary/system_ext/framework/QtiTelephonyServicelibrary.jar"],
+	jars: ["proprietary/system_ext/framework/embmslibrary.jar"],
 	system_ext_specific: true,
 }
 
@@ -229,20 +180,6 @@ dex_import {
 	name: "qcrilhook",
 	owner: "xiaomi",
 	jars: ["proprietary/system_ext/framework/qcrilhook.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "qti-telephony-common",
-	owner: "xiaomi",
-	jars: ["proprietary/system_ext/framework/qti-telephony-common.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "com.android.hotwordenrollment.common.util",
-	owner: "xiaomi",
-	jars: ["proprietary/system_ext/framework/com.android.hotwordenrollment.common.util.jar"],
 	system_ext_specific: true,
 }
 
@@ -265,22 +202,11 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.qti.gnss@3.0-service",
+	name: "vendor.qti.gnss@4.0-service",
 	owner: "xiaomi",
-	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml",
+	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
-}
-
-cc_prebuilt_binary {
-	name: "chargeonlymode",
-	owner: "xiaomi",
-	srcs: ["proprietary/bin/chargeonlymode"],
-	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
 }
 
