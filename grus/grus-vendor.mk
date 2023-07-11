@@ -6,6 +6,8 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/grus
 
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/grus/proprietary/system/etc/firmware/goodix_gt9886_cfg_f2.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/goodix_gt9886_cfg_f2.bin \
+    vendor/xiaomi/grus/proprietary/system/etc/firmware/goodix_gt9886_fw_f2.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/goodix_gt9886_fw_f2.bin \
     vendor/xiaomi/grus/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service-qti \
     vendor/xiaomi/grus/proprietary/vendor/bin/hw/android.hardware.keymaster@4.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.0-service-qti \
     vendor/xiaomi/grus/proprietary/vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service \
