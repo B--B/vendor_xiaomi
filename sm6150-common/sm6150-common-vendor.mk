@@ -200,6 +200,7 @@ PRODUCT_PACKAGES += \
     libsns_low_lat_stream_skel \
     libasphere \
     libhwdap \
+    libmisoundfx \
     libshoebox \
     libswgamedap \
     libswvqe \
