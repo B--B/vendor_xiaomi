@@ -261,6 +261,7 @@ PRODUCT_PACKAGES += \
     libacdbloader \
     libacdbrtac \
     libadiertac \
+    libadm \
     libaudcal \
     libaudio_log_utils \
     libaudioparsers \
@@ -268,9 +269,11 @@ PRODUCT_PACKAGES += \
     libhdmiedid \
     libhfp \
     libpn553_fw \
+    libqtigef \
     libsndmonitor \
     libspkrprot \
     libvideoutils \
+    libxlog \
     com.altek.node.depurple \
     com.altek.node.distortioncorrection \
     com.arcsoft.node.capturebokeh \
