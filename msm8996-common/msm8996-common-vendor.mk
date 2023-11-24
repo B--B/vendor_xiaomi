@@ -102,7 +102,7 @@ PRODUCT_PACKAGES += \
     libllvm-glnext \
     libmdmdetect \
     libmdsprpc \
-    libmmosal \
+    libmmosal_vendor \
     libpdmapper \
     libqcci_legacy \
     libqdi \
@@ -289,7 +289,7 @@ PRODUCT_PACKAGES += \
     libqcbassboost \
     libqcreverb \
     libqcvirt \
-    com.qualcomm.qti.dpm.api@1.0 \
+    com.qualcomm.qti.dpm.api@1.0_vendor \
     com.qualcomm.qti.imscmservice@2.0 \
     com.qualcomm.qti.imscmservice@2.1 \
     com.qualcomm.qti.imscmservice@2.2 \
@@ -467,15 +467,15 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.rcsconfig@2.0 \
     vendor.qti.ims.rcsconfig@2.1 \
     vendor.qti.imsrtpservice@3.0-service-Impl \
-    vendor.qti.imsrtpservice@3.0 \
+    vendor.qti.imsrtpservice@3.0_vendor \
     vendor.qti.latency@2.0 \
     vendor.qti.latency@2.1 \
     libavenhancements \
-    libmmosal \
+    libmmosal_system_ext \
     libmmparserextractor \
     libmmparser_lite \
     com.qualcomm.qti.ant@1.0 \
-    com.qualcomm.qti.dpm.api@1.0 \
+    com.qualcomm.qti.dpm.api@1.0_system_ext \
     com.quicinc.cne.api@1.0 \
     com.quicinc.cne.api@1.1 \
     com.quicinc.cne.constants@1.0 \
@@ -491,13 +491,13 @@ PRODUCT_PACKAGES += \
     libdpmfdmgr \
     libdpmframework \
     libdpmtcm \
-    libgralloc.qti \
+    libgralloc.qti_system_ext \
     libimscamera_jni \
     libimsmedia_jni \
     libmwqemiptablemgr \
-    libqdMetaData \
+    libqdMetaData_system_ext \
     vendor.qti.diaghal@1.0 \
-    vendor.qti.imsrtpservice@3.0 \
+    vendor.qti.imsrtpservice@3.0_system_ext \
     CneApp \
     IWlanService \
     TimeService \

@@ -523,7 +523,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmmosal",
+	name: "libmmosal_vendor",
+	stem: "libmmosal",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -3790,7 +3791,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "com.qualcomm.qti.dpm.api@1.0",
+	name: "com.qualcomm.qti.dpm.api@1.0_vendor",
+	stem: "com.qualcomm.qti.dpm.api@1.0",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -6825,7 +6827,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.imsrtpservice@3.0",
+	name: "vendor.qti.imsrtpservice@3.0_vendor",
+	stem: "vendor.qti.imsrtpservice@3.0",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -6896,7 +6899,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmmosal",
+	name: "libmmosal_system_ext",
+	stem: "libmmosal",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -6968,7 +6972,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "com.qualcomm.qti.dpm.api@1.0",
+	name: "com.qualcomm.qti.dpm.api@1.0_system_ext",
+	stem: "com.qualcomm.qti.dpm.api@1.0",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -7240,7 +7245,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libgralloc.qti",
+	name: "libgralloc.qti_system_ext",
+	stem: "libgralloc.qti",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -7308,7 +7314,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libqdMetaData",
+	name: "libqdMetaData_system_ext",
+	stem: "libqdMetaData",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -7342,7 +7349,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.imsrtpservice@3.0",
+	name: "vendor.qti.imsrtpservice@3.0_system_ext",
+	stem: "vendor.qti.imsrtpservice@3.0",
 	owner: "xiaomi",
 	strip: {
 		none: true,
