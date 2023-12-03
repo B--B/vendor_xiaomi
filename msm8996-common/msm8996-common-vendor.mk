@@ -125,6 +125,7 @@ PRODUCT_PACKAGES += \
     libscalar \
     libsensor1 \
     libsensor_reg \
+    libstagefright_foundation-v33 \
     libthermalclient \
     sensor_calibrate \
     sensors.ssc \
