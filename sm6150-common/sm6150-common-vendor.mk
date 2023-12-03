@@ -136,6 +136,7 @@ PRODUCT_PACKAGES += \
     libqmi_csi \
     libqmi_encdec \
     libqmiservices \
+    libstagefright_foundation-v33 \
     libvpphvx \
     libvpplibrary \
     vendor.dolby.hardware.dms@2.0 \
