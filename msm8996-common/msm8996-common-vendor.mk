@@ -278,21 +278,6 @@ PRODUCT_PACKAGES += \
     libts_face_beautify_hal \
     libubifocus \
     libvqzip \
-    libadsp_fd_skel \
-    libadsp_hvx_add_constant \
-    libadsp_hvx_skel \
-    libadsp_hvx_stats \
-    libadsp_hvx_zzhdr_BGGR \
-    libadsp_hvx_zzhdr_RGGB \
-    libapps_mem_heap \
-    libdspCV_skel \
-    libfastcvadsp \
-    libfastcvadsp_skel \
-    libscveBlobDescriptor_skel \
-    libscveObjectSegmentation_skel \
-    libscveT2T_skel \
-    libvpp_frc \
-    libvpp_svc_skel \
     libqcbassboost \
     libqcreverb \
     libqcvirt \
@@ -481,6 +466,21 @@ PRODUCT_PACKAGES += \
     vendor.qti.imsrtpservice@3.0_vendor \
     vendor.qti.latency@2.0 \
     vendor.qti.latency@2.1 \
+    libadsp_fd_skel \
+    libadsp_hvx_add_constant \
+    libadsp_hvx_skel \
+    libadsp_hvx_stats \
+    libadsp_hvx_zzhdr_BGGR \
+    libadsp_hvx_zzhdr_RGGB \
+    libapps_mem_heap \
+    libdspCV_skel \
+    libfastcvadsp \
+    libfastcvadsp_skel \
+    libscveBlobDescriptor_skel \
+    libscveObjectSegmentation_skel \
+    libscveT2T_skel \
+    libvpp_frc \
+    libvpp_svc_skel \
     libavenhancements \
     libmmosal_system_ext \
     libmmparserextractor \
@@ -512,8 +512,8 @@ PRODUCT_PACKAGES += \
     CneApp \
     IWlanService \
     TimeService \
-    PowerOffAlarm \
     MotoDolbyV3 \
+    PowerOffAlarm \
     QtiTelephonyService \
     daxService \
     dpmserviceapp \
