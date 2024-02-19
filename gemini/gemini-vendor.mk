@@ -145,6 +145,6 @@ PRODUCT_PACKAGES += \
     libmmcamera_ov4688_primax \
     libmmcamera_sony_imx298_eeprom \
     libois_lc898122 \
-    libpn548ad_fw \
     fingerprint.fpc \
+    libpn548ad_fw \
     libdirac-appi
