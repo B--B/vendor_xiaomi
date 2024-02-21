@@ -383,6 +383,7 @@ PRODUCT_PACKAGES += \
     libthermalioctl \
     libtime_genoff \
     libtinyxml2_1 \
+    libutils-v33 \
     libwms \
     libwqe \
     libwvhidl \
