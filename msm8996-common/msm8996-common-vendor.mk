@@ -124,7 +124,6 @@ PRODUCT_PACKAGES += \
     libscalar \
     libsensor1 \
     libsensor_reg \
-    libstagefright_foundation-v33 \
     libthermalclient \
     sensor_calibrate \
     sensors.ssc \
@@ -383,7 +382,6 @@ PRODUCT_PACKAGES += \
     libthermalioctl \
     libtime_genoff \
     libtinyxml2_1 \
-    libutils-v33 \
     libwms \
     libwqe \
     libwvhidl \
