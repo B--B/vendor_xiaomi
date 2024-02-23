@@ -7802,6 +7802,14 @@ sh_binary {
 }
 
 sh_binary {
+	name: "ssr_setup",
+	owner: "xiaomi",
+	src: "proprietary/vendor/bin/ssr_setup",
+	filename: "ssr_setup",
+	soc_specific: true,
+}
+
+sh_binary {
 	name: "tftp_server",
 	owner: "xiaomi",
 	src: "proprietary/vendor/bin/tftp_server",

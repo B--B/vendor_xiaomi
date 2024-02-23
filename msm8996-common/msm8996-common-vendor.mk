@@ -558,6 +558,7 @@ PRODUCT_PACKAGES += \
     qti \
     rmt_storage \
     sensors.qti \
+    ssr_setup \
     tftp_server \
     thermal-engine \
     time_daemon \
