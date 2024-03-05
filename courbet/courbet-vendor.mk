@@ -355,10 +355,10 @@ PRODUCT_PACKAGES += \
     libcamera_scene \
     libdualcam_optical_zoom_control \
     libdualcam_video_optical_zoom \
+    libfacedet \
     libft2vendor \
     libhta_hexagon_runtime \
     libhvx_interface \
-    libfacedet \
     libmiai_portraitsupernight \
     libmialgo_ie_capture \
     libmialgo_sd \
