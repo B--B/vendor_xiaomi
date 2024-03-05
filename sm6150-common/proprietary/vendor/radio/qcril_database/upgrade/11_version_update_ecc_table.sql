@@ -6,27 +6,10 @@
 
 BEGIN TRANSACTION;
 
-INSERT OR REPLACE INTO qcril_properties_table (property, value) VALUES ('qcrildb_version', 32);
-
-DELETE FROM qcril_emergency_source_mcc_table where MCC = '639' AND NUMBER = '112';
-INSERT INTO qcril_emergency_source_mcc_table VALUES('639','112','','');
-DELETE FROM qcril_emergency_source_mcc_table where MCC = '639' AND NUMBER = '911';
-INSERT INTO qcril_emergency_source_mcc_table VALUES('639','911','','');
-
-DELETE FROM qcril_emergency_source_hard_mcc_table where MCC = '639' AND NUMBER = '999';
-INSERT INTO qcril_emergency_source_hard_mcc_table VALUES('639','999','','');
-
-DELETE FROM qcril_emergency_source_mcc_table where MCC = '238' AND NUMBER = '112';
-INSERT INTO qcril_emergency_source_mcc_table VALUES('238','112','','');
-DELETE FROM qcril_emergency_source_mcc_table where MCC = '238' AND NUMBER = '911';
-INSERT INTO qcril_emergency_source_mcc_table VALUES('238','911','','');
+INSERT OR REPLACE INTO qcril_properties_table (property, value) VALUES ('qcrildb_version', 11);
 
 DELETE FROM qcril_emergency_source_hard_mcc_table where MCC = '238' AND NUMBER = '999';
 INSERT INTO qcril_emergency_source_hard_mcc_table VALUES('238','999','','');
-DELETE FROM qcril_emergency_source_hard_mcc_table where MCC = '238' AND NUMBER = '911';
-INSERT INTO qcril_emergency_source_hard_mcc_table VALUES('238','911','','');
-DELETE FROM qcril_emergency_source_hard_mcc_table where MCC = '238' AND NUMBER = '112';
-INSERT INTO qcril_emergency_source_hard_mcc_table VALUES('238','112','','');
 DELETE FROM qcril_emergency_source_hard_mcc_table where MCC = '238' AND NUMBER = '000';
 INSERT INTO qcril_emergency_source_hard_mcc_table VALUES('238','000','','');
 DELETE FROM qcril_emergency_source_hard_mcc_table where MCC = '238' AND NUMBER = '08';
