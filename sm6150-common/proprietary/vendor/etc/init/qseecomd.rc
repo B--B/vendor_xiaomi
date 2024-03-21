@@ -11,3 +11,4 @@ service vendor.qseecomd /vendor/bin/qseecomd
     user root
     group root
     shutdown critical
+    task_profiles ServiceCapacityLow
